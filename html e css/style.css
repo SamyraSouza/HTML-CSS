@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+#mapa{
+    background-image: url(img/luxa.org-opacity-changed-mapamundi.png);
+    background-repeat: no-repeat;
+}
+/* Menu*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 400;
+    margin-top: 40px;
+}
+header input{
+    border: #7f7bb9;
+    background-color: #534fa1;
+    border-radius: 40px;
+    padding: 5px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.material-symbols-outlined{
+    color: #27224b;
+}
+.links{
+    display: flex;
+    gap: 80px;
+}
+.links a{
+    text-decoration: none;
+    color: #40375e;
+    font-weight: 400;
+}
+.pesq{
+    display: flex;
+    gap: 15px;
+    padding: 3px;
+}
+.pesquisa{
+    background-color: #534fa1;
+    border-radius: 40px;
+}
+.pesquisa .material-symbols-outlined{
+    color: white;
+    margin-left: 10px;
+}
+.pesq a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* section 1*/
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 300px;
+}
+
+.bookNow{
+    width: 690px;
+}
+
+.bookNow h1{
+    color: #151a4a;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+.bookNow h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffa908;
+}
+.txt{
+    color: #13183a;
+    font-weight: 400;
+    font-size: 27px;
+}
+.botao input{
+    cursor: pointer;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: #fc5157;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 10px 8px 7px 0px rgba(252, 81, 87, 0.178);
+}
+.bot{
+    font-weight: 500;
+    color: #ffa908;
+    font-size: 24px;
+}
+#bot2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+    /* Sessão 2*/
+.sec2{
+    margin-top: 50px;
+}
+.sec2 h2{
+    color: #fc5157;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+.sec2 h3{
+    margin-bottom: 10px;
+    color: #13183a;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.sec2 .imgs{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec2 .imgsparis{
+    width: 400px;
+    height: 500px;
+    margin: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 7px rgba(43, 17, 92, 0.178);
+}
+.sec2 .imgsparis img{
+    width: 100%;
+}
+
+.sec2 .imgsparis desc{
+    padding: 15px;
+    text-align: center;
+}
+.sec2 .tempo{
+    font-weight: 550;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.sec2 .paris{
+    display: flex;
+    gap: 200px;
+    justify-content: space-evenly;
+}
+.sec2 .paris p{
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 460;
+}
+.material-symbols-outlined{
+    vertical-align: bottom;
+}
+
+/*Sessão 3*/
+
+.sec3{
+    margin-top: 150px;
+}
+.sec3 h2{
+    color: #4543a6;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+.sec3 h3{
+    margin-bottom: 10px;
+    color: #13183a;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 3px;
+}
+.sec3 .img{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec3 .descricao{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px 1px #ede2ff;
+}
+.sec3 img{
+    width: 150px;
+    height: 150px;
+  
+}
+.sec3 p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+.centimg{
+    display: block;
+    text-align: center; 
+}
+
+/*Sessão 4*/
+.sec4{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.txt{
+    width: 500px;
+}
+.descr h6{
+    margin-bottom: 0px; 
+    margin-top: 15px; 
+}
+.descr p{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.imagem{
+    width: 90px;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 9px 1px #40409f;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+}
+.descr{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.imagem1{
+    width: 90px;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 9px 1px #f7a301;
+}
+.imagem1 img{
+    width: 100%;
+    height: 100%;
+}
+.imagem2{
+    width: 90px;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 9px 1px #fb5254;
+}
+.imagem2 img{
+    width: 100%;
+    height: 100%;
+}
+.grecia{
+    width: 600px;
+    height: 600px;
+}
+.grecia img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Sessão 5*/
+.sec5{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+.tit{
+    width: 500px;
+}
+.cir1{
+    width: 15px;
+    height: 15px;
+    border-radius: 180px;
+    background-color: #fc5157;
+    cursor: pointer;
+}
+.cir2{
+    width: 15px;
+    height: 15px;
+    border-radius: 180px;
+    background-color: #feb8b9;
+    cursor: pointer;
+}
+#circulos{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+.tit h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.logos{
+    margin-top: 120px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Rodapé*/
+footer{
+    border-top: 2px solid rgba(128, 128, 128, 0.24);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    height: 450px;
+    align-items: center;
+}
+.explicacao{
+    width: 300px;
+}
+
+.linkrodape a{
+    text-decoration: none;
+    color: black;
+}
+.linkrodape li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: 410;
+}
+.linkrodape ul{
+    padding: 0;
+}
+
+.contatos i{
+    cursor: pointer;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 60px;
+    background-color: #ede2ff67;
+    box-shadow: 0px 5px 10px rgba(187, 179, 179, 0.459);
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.contatos h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.download{
+    cursor: pointer;
+    margin-top: 15px;
+    display: flex;
+}
